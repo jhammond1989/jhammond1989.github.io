@@ -26,7 +26,7 @@ Final Project
 
  
 How to Access Application
-1.	Visit https://YOURGITHUBLINKHERE/avalon to access the application.
+1.	Visit https://jhammond1989.github.io/avalon to access the application.
 2.	You will be prompted to login using Google, Facebook or email (Firebase).  
 
 
