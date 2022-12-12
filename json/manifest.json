@@ -1,0 +1,23 @@
+{
+  "short_name": "goAVALON",
+  "name": "go AVALON",
+  "lang":"en-US",
+  "icons": [
+    {
+      "src": "/AVALON/img/icon192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/AVALON/img/icon512x512.png",
+      "type": "img/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/AVALON/index.html",
+  "background_color": "#154360",
+  "orientation": "portrait-primary",
+  "display": "fullscreen",
+  "scope": "/AVALON/",
+  "theme_color": "#154360"
+}
