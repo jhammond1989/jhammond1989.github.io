@@ -1,0 +1,50 @@
+CACHE MANIFEST
+# v1.0 : 10-02-2019 goAloft
+CACHE:
+https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700|Roboto:300,500&display=swap
+https://fonts.googleapis.com/css?family=PT+Sans:700i&display=swap
+
+# pages
+description.html
+directory.html
+index.html
+listings.html
+resources.html
+tallships.html
+
+# styles & scripts
+# css
+css/custom.min.css
+css/slidebars.min.css
+css/all.min.css
+css/bootstrap.min.css
+
+#js
+js/pwacompat.min.js
+js/turbolinks.js
+js/jquery.min.js
+js/popper.min.js
+js/bootstrap.min.js
+js/slidebars.min.js
+js/lazyload.min.js
+js/jquery.nicescroll.min.js
+js/custom.js
+sw.js
+
+# images 
+img/aloft-logo.png
+img/angle-double-down-solid.svg
+img/appledoreII-16x9.png
+img/appledore2.png
+img/bagheera.png
+img/haliematthew.png
+img/hamilton-marine.png
+img/icon192x192.png
+img/icon512x512.png
+img/libertyclipper.png
+img/timberwind.png
+img/timberwind-16x9.png
+img/wendameen.png
+
+# web manifest
+manifest.webmanifest

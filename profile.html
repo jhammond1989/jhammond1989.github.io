@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--- Manifest --->
+	<link rel="manifest" href="manifest.webmanifest">
+	<!-- include PWACompat _after_ your manifest -->
+	<script async src="js/pwacompat.min.js"></script>
+
+	<!-- Turbolinks -->
+	<script src="js/turbolinks.js"></script>
+	<script>
+		//var Turbolinks = require("turbolinks")
+		Turbolinks.start()
+	</script>
+
+	<title>Avalon: A Sailor's Resource Guide</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+
+	<!--- Google Fonts --->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700|Roboto:300,500&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700i&display=swap" rel="stylesheet">
+
+	<!--- Font Awesome --->
+	<link rel="stylesheet" href="css/all.min.css">
+
+	<!---Slidebars CSS --->
+	<link rel="stylesheet" href="css/slidebars.min.css">
+
+</head>
+
+
+
+<body class="bg-white">
+
+		<div class="side-shadow scroll-container" canvas="container">
+
+		<div class="nice-scroll">	
+
+		<!----Top Page Jumbotron---->
+	
+	
+<!-- 		<div class="container-fluid top-page-jumbo bg-light px-0 " id="pg-info-loads-here">
+			<div class="col-lg-8 col-md-10 col-sm-12 mx-auto mb-0 py-2">
+				<h1 class="mb-0"><span class="font-weight-light font-green mr-n2">go</span><span
+						class="font-blue logo">AVALON</span></h1>
+				<p class="mb-0 font-xs font-weight-light">A comprehensive resource for tall ship sailors.</p>
+			</div>
+		</div>
+		<div class="bg-blue"><br /></div> -->
+
+		<div class="container-fluid top-page-jumbo notification-container mb-5">
+			<!----Section Headings---->
+			<div class="h-100 col-lg-6 col-md-12 mx-auto">
+			<div class="mb-3 pb-3 text-center"><i class="fas fa-user-circle fa-5x"></i></div>
+			
+			<div class="text-right font-weight-light font-xs pr-2 mb-0">off &nbsp;&nbsp;/&nbsp;&nbsp; on</div>
+			<div class="mb-3 d-flex justify-content-between">
+				<span class="font-weight-light">Activate Profile</span>
+				<label class="switch"> 
+					<input type="checkbox">
+					<span class="slider round"></span>
+				</label>
+			</div>
+
+				<div class="border-bottom d-flex justify-content-between">
+					<h3 class="font-blue ">User Name</h3>
+					<p class="font-weight-light font-xs pr-2"><i class="fas fa-pencil-alt fa-1x"></i>&nbsp;edit</p>
+				</div>
+				<div class="mb-5">
+					<p class="font-weight-light">Captain Obvious</p>
+				</div>
+
+				<div class="border-bottom d-flex justify-content-between">
+					<h3 class="font-blue ">Position</h3>
+					<p class="font-weight-light font-xs pr-2"><i class="fas fa-pencil-alt fa-1x"></i>&nbsp;edit</p>
+				</div>
+				<div class="mb-5">
+					<p>USCG Captain License</p>
+				</div>
+
+				<div class="border-bottom d-flex justify-content-between">
+					<h3 class="font-blue ">Years of Experience</h3>
+					<p class="font-weight-light font-xs pr-2"><i class="fas fa-pencil-alt fa-1x"></i>&nbsp;edit</p>
+				</div>
+				<div class="mb-5">
+					<p class="font-weight-light">15 years USCG Captain</p>
+				</div>
+
+				<div class="border-bottom d-flex justify-content-between">
+					<h3 class="font-blue ">Past Experience</h3>
+					<p class="font-weight-light font-xs pr-2"><i class="fas fa-pencil-alt fa-1x"></i>&nbsp;edit</p>
+				</div>
+				<div class="mb-5">
+					<p class="font-weight-light">He was born in a royal family in a wealthy port. He lived free of worries until he was about 14 years old, but at that point life changed.</p>
+				</div>
+
+				<div class="border-bottom d-flex justify-content-between">
+					<h3 class="font-blue ">Introduction</h3>
+					<p class="font-weight-light font-xs pr-2"><i class="fas fa-pencil-alt fa-1x"></i>&nbsp;edit</p>
+				</div>
+				<div class="mb-5">
+					<p class="font-weight-light">He's elegant, jovial, creative and perhaps a little too impulsive. This isn't surprising considering for someone with his position.He moved out and was growing up fast. Through plenty of trial and error, he is going on a journey in a absurd world. But with his curiosity and cunning, there's nothing to stop him from fulfilling all dreams. He could quickly become a friend you'd want by your side.</p>
+				</div>
+
+				<div class="border-bottom d-flex justify-content-between">
+					<h3 class="font-blue ">Further Information</h3>
+					<p class="font-weight-light font-xs pr-2"><i class="fas fa-pencil-alt fa-1x"></i>&nbsp;edit</p>
+				</div>
+				
+				<div class="mb-5">
+					<p class="font-weight-light">But for now that's speculation; he is currently enjoying the world and its beauty. He feels like there's more incredible sights to behold in this world. Luckily he has amazing friends to support him. .</p>
+				</div>
+			
+			</div>
+		</div>
+
+
+		
+
+		</div><!---End of nice scroll container-->
+	</div>
+	<!--------- End of Main Page Content Canvas ------>
+
+
+	<!--- Fixed Header and Search Container ***Moved to the bottom of the page and both footer and header maintain fixed position*** --->
+	<!---Page Heading --->
+	<div class="fixed-top" canvas="">
+		<div class="d-flex flex-row align-items-center px-3 py-1 bg-blue">
+			<div class="font-green d-flex flex-row">
+				<button class="btn btn-history font-weight-light font-small" type="button" onclick="history.back(-1);"><i
+						class="fas fa-arrow-left fa-1x"></i></button>
+			</div>
+
+			<div class="ml-auto">
+				<a href="profile.html" class="nav-link"><i class="fas fa-user-circle fa-2x"></i></a>
+			</div>
+
+			<div class="">
+				<a href="settings.html" class="nav-link"><i class="fas fa-cog fa-2x"></i></a>
+			</div>
+
+		</div>
+
+
+		<div class="container-fluid bg-green shadow search-container">
+			<!----Section Headings---->
+			<div class="col-lg-8 col-md-10 col-sm-12 mx-auto py-3">
+				<h3 class="font-white font-weight-light mb-0">User Profile</h3>
+			</div>
+		</div>
+	</div>
+	<!----------- End of Fixed Header Container ----------->
+
+	<!------ Fixed Footer Menu --------->
+	<footer class="navbar fixed-bottom navbar-dark bg-blue top-shadow" id="menu" canvas="">
+		<!--- Bottom Hamburger Toggle Icon --->
+		<button type="button" class="toggle-button btn btn-lg font-white" data-toggle="button" aria-pressed="false"
+			autocomplete="off">☰</button>
+
+		<!--- Bottom Navbar Icons --->
+		<a href="dock.html" class="navlink"><i class="fas fa-home fa-2x"></i></a>
+		<div class=""><span class="font-weight-light font-lt-white mr-n1">go</span><span
+				class="font-white logo">AVALON</span></div>
+		<a href="#" class="btm-nb-i"><i class="fas fa-bell fa-2x"></i></a>
+		<a href="index.html" class="btm-nb-i"><i class="fas fa-sign-out-alt fa-2x"></i></a>
+	</footer>
+
+
+	<nav class="" id="navbar-main" off-canvas="left-nav left reveal">
+		<!--- Navbar Collapse Items --->
+		<div class="p-0" style="height: 100vh;">
+			<div class="h-100 navbar-nav d-flex flex-column justify-content-between navbar-padding" id="">
+
+				<div class="pl-3 border-bottom nav-item d-flex align-items-center h-100 text-uppercase active ">
+					<a class="nav-link" href="settings.html"><i class="fas fa-cog"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span
+							class="font-weight-light">Settings</span><span class="sr-only">(current)</span></a>
+				</div>
+				<div class="pl-3 border-bottom nav-item d-flex align-items-center h-100 text-uppercase active ">
+					<a class="nav-link" href="profile.html"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span
+							class="font-weight-light">Profile</span><span class="sr-only">(current)</span></a>
+				</div>
+				<div class="pl-3 border-bottom nav-item d-flex align-items-center h-100 text-uppercase">
+					<a class="nav-link disabled" href="#"><i class="fas fa-life-ring"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span
+							class="font-weight-light">Help</span></a>
+				</div>
+				<div class="pl-3 border-bottom d-flex align-items-center h-100 nav-item">
+					<a class="nav-link disabled" href="#"><span
+							class="font-weight-light mr-2 text-uppercase">About</span><span
+							class="font-weight-light font-lt-white mr-n1">go</span><span
+							class="font-white logo">AVALON</span></a>
+				</div>
+
+				<div class="nav-hover pl-3 border-bottom d-flex align-items-center h-100 nav-item text-uppercase">
+					<a class="nav-link" href="resources.html"><i
+							class="fas fa-book pl-2"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-weight-light">Sailing
+							Resources</span></a>
+				</div>
+				<div class="nav-hover pl-3 border-bottom d-flex align-items-center h-100 nav-item text-uppercase">
+					<a class="nav-link" href="directory.html"><i
+							class="fas fa-binoculars pl-2"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span
+							class="font-weight-light">Discover Tall Ships</span></a>
+				</div>
+				<div class="nav-hover pl-3 border-bottom d-flex align-items-center h-100 nav-item text-uppercase">
+					<a class="nav-link" href="map.html"><i
+							class="fas fa-map-marked pl-2"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span
+							class="font-weight-light">Explore Map</span></a>
+				</div>
+				<div class="nav-hover pl-3 border-bottom d-flex align-items-center h-100 nav-item text-uppercase">
+					<a class="nav-link" href="listings.html"><i
+							class="fas fa-search pl-2"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-weight-light">Job
+							Listings</span></a>
+				</div>
+				<div class="nav-hover pl-3 d-flex align-items-center h-100 nav-item text-uppercase">
+					<a class="nav-link" href="index.html"><i
+							class="fas fa-sign-out-alt pl-2"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span
+							class="font-weight-light">Sign Out</span></a>
+				</div>
+
+			</div>
+		</div>
+	</nav>
+
+
+
+
+
+
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js">
+		</script>
+		<script src="js/bootstrap.min.js">
+		</script>
+
+		<!-- Plug-ins -->
+		<script src="js/slidebars.min.js"></script>
+		<script src="js/lazyload.min.js"></script>
+		<script src="js/jquery.nicescroll.min.js"></script>
+
+
+		<!-- Custom JS-->
+		<script src="js/custom.js"></script>
+
+		<!--- Service Workder --->
+		<script src="sw.js"></script>
+
+</body>
+
+</html>
